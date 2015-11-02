@@ -1,0 +1,26 @@
+{
+    "name": "frenchfrogs/tag",
+    "description": "Inline tag management with frenchfrogs framework",
+    "type": "library",
+    "source": {
+        "url": "git@github.com:FrenchFrogs/tag.git",
+        "type": "git",
+        "reference": "origin/master"
+    },
+    "authors": [
+        {
+            "name": "Cotcotquedec",
+            "email": "cototquedec@gmail.com"
+        }
+    ],
+    "require": {
+	"frenchfrogs/framework" : ">=0.3"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Frenchfrogs\\Tag\\": "src/"
+        }
+    }
+}
