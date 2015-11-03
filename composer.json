@@ -20,7 +20,7 @@
         "classmap": [
         ],
         "psr-4": {
-            "Frenchfrogs\\Tag\\": "src/"
+            "FrenchFrogs\\Tag\\": "src/"
         }
     }
 }
