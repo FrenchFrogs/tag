@@ -7,10 +7,14 @@
         "type": "git",
         "reference": "origin/master"
     },
+    "homepage": "https://github.com/FrenchFrogs/tag",
+    "licence": "GPL-3.0+",
     "authors": [
         {
-            "name": "Cotcotquedec",
-            "email": "cototquedec@gmail.com"
+            "name": "Julien Houvion",
+            "email": "cotcotquedec@gmail.com",
+            "homepage": "https://github.com/cotcotquedec",
+            "role": "Project Manager"
         }
     ],
     "require": {
@@ -23,5 +27,6 @@
             "FrenchFrogs\\Tag\\": "src/",
             "FrenchFrogs\\Models\\": "src/Models"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
