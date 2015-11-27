@@ -1,6 +1,6 @@
 <?php namespace FrenchFrogs\Models\Db\Tag;
 
-use Illuminate\Database\Eloquent\Model;
+use FrenchFrogs\Laravel\Database\Eloquent\Model;
 
 class Tag extends Model
 {
@@ -12,6 +12,7 @@ class Tag extends Model
      * @var string
      */
     protected $table = 'tag';
+    public $uuid = true;
 
     public function container()
     {

@@ -1,6 +1,6 @@
 <?php namespace FrenchFrogs\Models\Db\Tag;
 
-use Illuminate\Database\Eloquent\Model;
+use FrenchFrogs\Laravel\Database\Eloquent\Model;
 
 class Route extends Model
 {
@@ -12,6 +12,8 @@ class Route extends Model
      * @var string
      */
     protected $table = 'tag_route';
+
+    public $uuid = true;
 
     public function container()
     {
